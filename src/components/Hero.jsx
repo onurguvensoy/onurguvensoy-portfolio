@@ -14,7 +14,7 @@ const Hero = () => {
         </h1>
         <p className='mt-4 text-lg text-gray-300'>My passion is making softwares that going to changes entire life.</p>
         <div className='mt-8 space-x-4'>
-            <button className='bg-white text-black rounded-full px-6 py-2 shadow-md hover:bg-gray-400 transition'>Contact with me</button>
+            <a href='#Contact' className='bg-white text-black rounded-full px-6 py-2 shadow-md hover:bg-gray-400 transition'>Contact with me</a>
             <button className='bg-white text-black rounded-full px-6 py-2 shadow-md hover:bg-gray-400 transition'>Resume</button>
         </div>
         
