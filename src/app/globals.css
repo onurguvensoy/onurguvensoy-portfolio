@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-400px * 5)); /* 5 is the number of projects */
+  }
+}
+
+/* Remove the fixed animation class since we're using inline styles */ 
